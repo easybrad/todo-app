@@ -1,0 +1,16 @@
+# 忽略特定的文件
+specific-file.js
+
+# 忽略整个目录
+node_modules/
+build/
+dist/
+
+# 忽略所有 .min.js 文件
+*.min.js
+
+# 忽略 package.json
+package.json
+
+# 忽略特定的 CSS 文件
+styles/special.css
