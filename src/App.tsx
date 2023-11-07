@@ -1,5 +1,7 @@
+import Logs from './components/Logs/Logs';
+
 const App: React.FC = () => {
-  return <div className='App'>Hello World</div>;
+  return <Logs />;
 };
 
 export default App;

@@ -1,5 +1,9 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "emmet.includeLanguages": { "javascript": "javascriptreact" }
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.fontFamily": "FiraCode-Retina",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
