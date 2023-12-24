@@ -1,7 +1,13 @@
 import Logs from './components/Logs/Logs';
-
-const App: React.FC = () => {
-  return <Logs />;
+import LogsForm from './components/LogsForm/LogsForm';
+import './App.css';
+const App = () => {
+  return (
+    <div className='app'>
+      <LogsForm />
+      <Logs />
+    </div>
+  );
 };
 
 export default App;

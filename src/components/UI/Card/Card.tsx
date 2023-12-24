@@ -5,7 +5,7 @@ interface CardProps {
   className?: string;
 }
 
-const Card: React.FC<CardProps> = ({ children, className }) => {
+const Card = ({ children, className }: CardProps) => {
   const classes = `card ${className ? className : ''}`;
   return <div className={classes.trim()}>{children}</div>;
 };

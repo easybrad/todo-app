@@ -1,10 +1,8 @@
-// Logs.tsx
-import React from 'react';
 import './Logs.css';
 import Card from '../UI/Card/Card'; // 引入 Card 组件
 import LogItem from './LogItem';
 
-const Logs: React.FC = () => {
+const Logs = () => {
   const logsData = [
     {
       id: '001',

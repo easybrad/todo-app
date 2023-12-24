@@ -1,5 +1,3 @@
-// LogItem.tsx
-import React from 'react';
 import Card from '../UI/Card/Card';
 import DateShow from './DateShow/DateShow';
 import './LogItem.css';
@@ -11,7 +9,7 @@ interface LogItemProps {
   time: string;
 }
 
-const LogItem: React.FC<LogItemProps> = ({ date, desc, time }) => {
+const LogItem = ({ date, desc, time }: LogItemProps) => {
   return (
     <>
       {/* Log item container */}

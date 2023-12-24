@@ -1,7 +1,5 @@
 /* 设置外层 logs 样式 */
 .logs {
-  width: 800px;
-  margin: 50px auto;
   padding: 20px;
   background-color: #eae2b7;
 }
